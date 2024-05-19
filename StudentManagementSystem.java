@@ -217,7 +217,7 @@ class Student {
                 javaMarksField.setText("");
                 phpMarksField.setText("");
             } catch (NumberFormatException ex) {
-                JOptionPane.showMessageDialog(StudentManagementSystem.this, "Invalid input. Please enter numeric values for marks.", "Message", JOptionPane.INFORMATION_MESSAGE);
+                JOptionPane.showMessageDialog(StudentManagementSystem.this, "Please Enter Valid numeric values for marks", "Message", JOptionPane.INFORMATION_MESSAGE);
             } catch (IllegalArgumentException ex) {
                 JOptionPane.showMessageDialog(StudentManagementSystem.this, ex.getMessage(), "Message", JOptionPane.INFORMATION_MESSAGE);
             }
