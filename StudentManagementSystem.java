@@ -12,11 +12,6 @@ package studentmanagementsystem;
 */
 
 //Import of useful class to be used 
-
-import javax.swing.*;
-import javax.swing.border.EmptyBorder;
-import javax.swing.border.LineBorder;
-import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import static java.awt.Color.green;
 import static java.awt.Color.red;
@@ -24,7 +19,10 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.regex.Pattern;
-
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import javax.swing.border.LineBorder;
+import javax.swing.table.DefaultTableModel;
 // Student class using encapsulation
 class Student {
     private String name;
