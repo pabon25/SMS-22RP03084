@@ -217,9 +217,9 @@ class Student {
                 javaMarksField.setText("");
                 phpMarksField.setText("");
             } catch (NumberFormatException ex) {
-                JOptionPane.showMessageDialog(StudentManagementSystem.this, "Invalid input. Please enter numeric values for marks.", "Error", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(StudentManagementSystem.this, "Invalid input. Please enter numeric values for marks.", "Message", JOptionPane.ERROR_MESSAGE);
             } catch (IllegalArgumentException ex) {
-                JOptionPane.showMessageDialog(StudentManagementSystem.this, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(StudentManagementSystem.this, ex.getMessage(), "Message", JOptionPane.ERROR_MESSAGE);
             }
         }
     }
